@@ -16,6 +16,6 @@
    s.requires_arc = true
   
    s.xcconfig = { 
-      'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) GYMonitorInstalled=1'
+      'GCC_PREPROCESSOR_DEFINITIONS[config=Debug]' => '$(inherited) GYMonitorInstalled=1'
     }
  end
