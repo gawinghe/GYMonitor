@@ -16,7 +16,6 @@
    s.requires_arc = true
   
    s.xcconfig = { 
-      'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) SD_WEBP=1',
-      'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
+      'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) GYMonitor=1'
     }
  end
