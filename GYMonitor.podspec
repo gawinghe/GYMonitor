@@ -14,4 +14,9 @@
    s.dependency 'PLCrashReporter'
 
    s.requires_arc = true
+  
+   s.xcconfig = { 
+      'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) SD_WEBP=1',
+      'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
+    }
  end
